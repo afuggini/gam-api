@@ -9,6 +9,7 @@ interface APIConfig {
 export default class {
     DFP: any;
     DFPUser: any;
+    call: any;
     constructor(config: APIConfig);
     callServiceMethodWithPayload(Service: any, Method: any, payload: any): Promise<any>;
 }
